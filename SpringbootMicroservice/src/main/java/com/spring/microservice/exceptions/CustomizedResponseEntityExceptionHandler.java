@@ -1,6 +1,6 @@
-package com.nisha.girl.exceptions;
+package com.spring.microservice.exceptions;
 
-import com.nisha.girl.Controllers.SessionNotFound;
+import com.spring.microservice.Controllers.SessionNotFound;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

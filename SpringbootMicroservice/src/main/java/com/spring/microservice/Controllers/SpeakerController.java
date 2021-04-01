@@ -1,12 +1,11 @@
-package com.nisha.girl.Controllers;
+package com.spring.microservice.Controllers;
 
-import com.nisha.girl.models.Speaker;
-import com.nisha.girl.repositories.SpeakerRepository;
+import com.spring.microservice.models.Speaker;
+import com.spring.microservice.repositories.SpeakerRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.persistence.Lob;
 import java.util.List;
 
 @RestController

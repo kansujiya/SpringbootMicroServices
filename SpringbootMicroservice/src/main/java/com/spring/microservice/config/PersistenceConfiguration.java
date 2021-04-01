@@ -1,4 +1,4 @@
-package com.nisha.girl.config;
+package com.spring.microservice.config;
 
 import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;

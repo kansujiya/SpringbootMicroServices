@@ -1,4 +1,4 @@
-package com.nisha.girl.exceptions;
+package com.spring.microservice.exceptions;
 
 import java.util.Date;
 

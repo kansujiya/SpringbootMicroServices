@@ -1,4 +1,4 @@
-package com.nisha.girl.Controllers;
+package com.spring.microservice.Controllers;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

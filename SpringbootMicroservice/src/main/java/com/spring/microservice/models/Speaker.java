@@ -1,8 +1,7 @@
-package com.nisha.girl.models;
+package com.spring.microservice.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.util.List;

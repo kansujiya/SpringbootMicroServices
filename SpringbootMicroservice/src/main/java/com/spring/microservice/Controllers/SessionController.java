@@ -1,13 +1,11 @@
-package com.nisha.girl.Controllers;
+package com.spring.microservice.Controllers;
 
-import com.nisha.girl.models.Session;
-import com.nisha.girl.repositories.SessionRepository;
+import com.spring.microservice.models.Session;
+import com.spring.microservice.repositories.SessionRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController

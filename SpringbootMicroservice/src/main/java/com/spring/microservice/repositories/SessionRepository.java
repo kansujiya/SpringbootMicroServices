@@ -1,6 +1,6 @@
-package com.nisha.girl.repositories;
+package com.spring.microservice.repositories;
 
-import com.nisha.girl.models.Session;
+import com.spring.microservice.models.Session;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface SessionRepository extends JpaRepository<Session, Long> {

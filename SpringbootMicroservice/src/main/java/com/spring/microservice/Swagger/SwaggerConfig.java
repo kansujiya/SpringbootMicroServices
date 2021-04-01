@@ -1,4 +1,4 @@
-package com.nisha.girl.Swagger;
+package com.spring.microservice.Swagger;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
