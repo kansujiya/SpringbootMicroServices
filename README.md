@@ -1,5 +1,5 @@
-# Springboot_Microservices
-Sample built with spring framwork.
+# Springboot_Microservice
+Sample built with spring framwork from basic rest service creation to advance learing stuff.
 
 * ##### Note - Project is built with H2 Memory database and data will be seeded using [data.sql](https://github.com/kansujiya/SpringbootMicroServices/blob/main/SpringbootMicroservice/src/main/resources/data.sql)  on app start.
 
