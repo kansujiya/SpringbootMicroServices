@@ -25,7 +25,8 @@ Different examples:
 * Sample Rest services with JPA | Session & Speaker Controller
 * Versioning | VersionController 
 * API filtering |  ApiFilter
-* Custom Exception Handling | ExceptionResponse 
+* Custom Exception Handling | ExceptionResponse
+* Swagger2 | SwaggerConfig 
 
 ## Setup
 * Import the project as maven project
