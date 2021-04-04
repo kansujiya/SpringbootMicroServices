@@ -21,12 +21,12 @@ Project is created with:
 ## Samples
 
 Different examples:
-* How to access envoirment variable | HomeController
-* Sample Rest services with JPA | Session & Speaker Controller
-* Versioning | VersionController 
-* API filtering |  ApiFilter
-* Custom Exception Handling | ExceptionResponse
-* Swagger2 | SwaggerConfig 
+* How to access envoirment variable | [HomeController](https://github.com/kansujiya/SpringbootMicroServices/blob/main/SpringbootMicroservice/src/main/java/com/spring/microservice/Controllers/HomeController.java) 
+* Sample Rest services with JPA | [Session & Speaker Controller] (https://github.com/kansujiya/SpringbootMicroServices/blob/main/SpringbootMicroservice/src/main/java/com/spring/microservice/Controllers/SessionController.java)
+* Versioning | [VersionController] (https://github.com/kansujiya/SpringbootMicroServices/blob/main/SpringbootMicroservice/src/main/java/com/spring/microservice/Versioning/VersionController.java)
+* API filtering |  [ApiFilter] (https://github.com/kansujiya/SpringbootMicroServices/blob/main/SpringbootMicroservice/src/main/java/com/spring/microservice/filter/ApiFilter.java)
+* Custom Exception Handling | [ExceptionResponse] (https://github.com/kansujiya/SpringbootMicroServices/blob/main/SpringbootMicroservice/src/main/java/com/spring/microservice/exceptions/ExceptionResponse.java)
+* Swagger2 | [SwaggerConfig] (https://github.com/kansujiya/SpringbootMicroServices/blob/main/SpringbootMicroservice/src/main/java/com/spring/microservice/Swagger/SwaggerConfig.java)
 
 ## Setup
 * Import the project as maven project
