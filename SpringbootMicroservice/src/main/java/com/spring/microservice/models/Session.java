@@ -1,5 +1,6 @@
 package com.spring.microservice.models;
 
+import com.fasterxml.jackson.annotation.JsonFilter;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -13,6 +14,7 @@ import java.util.List;
 @ApiModel(description = "Details about sessions")
 @Entity(name = "sessions")
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+@JsonFilter("SessionFilter")
 public class Session {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -78,6 +80,17 @@ public class Session {
 
     public void setSpeakers(List<Speaker> speakers) {
         this.speakers = speakers;
+    }
+
+    @Override
+    public String toString() {
+        return "Session{" +
+                "session_id=" + session_id +
+                ", session_name='" + session_name + '\'' +
+                ", session_description='" + session_description + '\'' +
+                ", session_length=" + session_length +
+                ", speakers=" + speakers +
+                '}';
     }
 }
 

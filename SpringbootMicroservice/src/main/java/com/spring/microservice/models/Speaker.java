@@ -92,4 +92,16 @@ public class Speaker {
     public void setSessions(List<Session> sessions) {
         this.sessions = sessions;
     }
+
+    @Override
+    public String toString() {
+        return "Speaker{" +
+                "speaker_id=" + speaker_id +
+                ", first_name='" + first_name + '\'' +
+                ", last_name='" + last_name + '\'' +
+                ", title='" + title + '\'' +
+                ", company='" + company + '\'' +
+                ", speaker_bio='" + speaker_bio + '\'' +
+                '}';
+    }
 }

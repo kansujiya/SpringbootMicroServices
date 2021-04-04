@@ -12,7 +12,8 @@ public class PersistenceConfiguration {
     @Bean
     public DataSource dataSource() {
         DataSourceBuilder builder = DataSourceBuilder.create();
-        builder.url("jdbc:postgressql://localhost:5432/nisha_girl");
+        //builder.url("jdbc:postgressql://localhost:5432/nisha_girl");
+        builder.url("jdbc:h2:mem:testdb");
         System.out.println("My Custom database has been initialized");
         return builder.build();
     }
