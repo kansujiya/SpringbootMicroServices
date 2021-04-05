@@ -37,6 +37,6 @@ Different examples:
 
 ## APIs Documentations
 
-* [API Documentation](https://documenter.getpostman.com/view/2141799/Tz5jcz6t)
+* [API Documentation](https://www.getpostman.com/collections/5d0d8f5cfd0e70f85bab)
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/5d0d8f5cfd0e70f85bab)
